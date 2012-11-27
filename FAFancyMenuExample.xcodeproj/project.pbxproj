@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10B645941664D2E90029CC5C /* FAFancyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B645911664D2E90029CC5C /* FAFancyButton.m */; };
+		10B645951664D2E90029CC5C /* FAFancyMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B645931664D2E90029CC5C /* FAFancyMenuView.m */; };
+		10B6459B1664D2F80029CC5C /* petal-email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B645961664D2F80029CC5C /* petal-email@2x.png */; };
+		10B6459C1664D2F80029CC5C /* petal-facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B645971664D2F80029CC5C /* petal-facebook@2x.png */; };
+		10B6459D1664D2F80029CC5C /* petal-save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B645981664D2F80029CC5C /* petal-save@2x.png */; };
+		10B6459E1664D2F80029CC5C /* petal-twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B645991664D2F80029CC5C /* petal-twitter@2x.png */; };
+		10B6459F1664D2F80029CC5C /* petal-unsave@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B6459A1664D2F80029CC5C /* petal-unsave@2x.png */; };
 		7F6F1234165D19C800133A0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F1233165D19C800133A0F /* UIKit.framework */; };
 		7F6F1236165D19C800133A0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F1235165D19C800133A0F /* Foundation.framework */; };
 		7F6F1238165D19C800133A0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F1237165D19C800133A0F /* CoreGraphics.framework */; };
@@ -18,17 +25,19 @@
 		7F6F124A165D19C800133A0F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F1249165D19C800133A0F /* Default-568h@2x.png */; };
 		7F6F124D165D19C800133A0F /* FAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F124C165D19C800133A0F /* FAViewController.m */; };
 		7F6F1250165D19C800133A0F /* FAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F124E165D19C800133A0F /* FAViewController.xib */; };
-		7F6F125B165D19E700133A0F /* FAFancyMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F1258165D19E700133A0F /* FAFancyMenuView.m */; };
-		7F6F125C165D19E700133A0F /* FAFancyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6F125A165D19E700133A0F /* FAFancyButton.m */; };
 		7F6F125E165D19F300133A0F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F125D165D19F300133A0F /* QuartzCore.framework */; };
-		7F6F1264165D1A4600133A0F /* petal-email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F125F165D1A4600133A0F /* petal-email@2x.png */; };
-		7F6F1265165D1A4600133A0F /* petal-facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F1260165D1A4600133A0F /* petal-facebook@2x.png */; };
-		7F6F1266165D1A4600133A0F /* petal-save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F1261165D1A4600133A0F /* petal-save@2x.png */; };
-		7F6F1267165D1A4600133A0F /* petal-twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F1262165D1A4600133A0F /* petal-twitter@2x.png */; };
-		7F6F1268165D1A4600133A0F /* petal-unsave@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6F1263165D1A4600133A0F /* petal-unsave@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10B645901664D2E90029CC5C /* FAFancyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAFancyButton.h; path = FAFancyMenu/FAFancyButton.h; sourceTree = SOURCE_ROOT; };
+		10B645911664D2E90029CC5C /* FAFancyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAFancyButton.m; path = FAFancyMenu/FAFancyButton.m; sourceTree = SOURCE_ROOT; };
+		10B645921664D2E90029CC5C /* FAFancyMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FAFancyMenuView.h; path = FAFancyMenu/FAFancyMenuView.h; sourceTree = SOURCE_ROOT; };
+		10B645931664D2E90029CC5C /* FAFancyMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FAFancyMenuView.m; path = FAFancyMenu/FAFancyMenuView.m; sourceTree = SOURCE_ROOT; };
+		10B645961664D2F80029CC5C /* petal-email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "petal-email@2x.png"; path = "FAFancyMenu/petal-email@2x.png"; sourceTree = SOURCE_ROOT; };
+		10B645971664D2F80029CC5C /* petal-facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "petal-facebook@2x.png"; path = "FAFancyMenu/petal-facebook@2x.png"; sourceTree = SOURCE_ROOT; };
+		10B645981664D2F80029CC5C /* petal-save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "petal-save@2x.png"; path = "FAFancyMenu/petal-save@2x.png"; sourceTree = SOURCE_ROOT; };
+		10B645991664D2F80029CC5C /* petal-twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "petal-twitter@2x.png"; path = "FAFancyMenu/petal-twitter@2x.png"; sourceTree = SOURCE_ROOT; };
+		10B6459A1664D2F80029CC5C /* petal-unsave@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "petal-unsave@2x.png"; path = "FAFancyMenu/petal-unsave@2x.png"; sourceTree = SOURCE_ROOT; };
 		7F6F122F165D19C800133A0F /* FAFancyMenuExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAFancyMenuExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6F1233165D19C800133A0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7F6F1235165D19C800133A0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,16 +54,7 @@
 		7F6F124B165D19C800133A0F /* FAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAViewController.h; sourceTree = "<group>"; };
 		7F6F124C165D19C800133A0F /* FAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FAViewController.m; sourceTree = "<group>"; };
 		7F6F124F165D19C800133A0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FAViewController.xib; sourceTree = "<group>"; };
-		7F6F1257165D19E700133A0F /* FAFancyMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAFancyMenuView.h; sourceTree = "<group>"; };
-		7F6F1258165D19E700133A0F /* FAFancyMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAFancyMenuView.m; sourceTree = "<group>"; };
-		7F6F1259165D19E700133A0F /* FAFancyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAFancyButton.h; sourceTree = "<group>"; };
-		7F6F125A165D19E700133A0F /* FAFancyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAFancyButton.m; sourceTree = "<group>"; };
 		7F6F125D165D19F300133A0F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		7F6F125F165D1A4600133A0F /* petal-email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-email@2x.png"; sourceTree = "<group>"; };
-		7F6F1260165D1A4600133A0F /* petal-facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-facebook@2x.png"; sourceTree = "<group>"; };
-		7F6F1261165D1A4600133A0F /* petal-save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-save@2x.png"; sourceTree = "<group>"; };
-		7F6F1262165D1A4600133A0F /* petal-twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-twitter@2x.png"; sourceTree = "<group>"; };
-		7F6F1263165D1A4600133A0F /* petal-unsave@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-unsave@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +117,11 @@
 		7F6F123A165D19C800133A0F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7F6F125F165D1A4600133A0F /* petal-email@2x.png */,
-				7F6F1260165D1A4600133A0F /* petal-facebook@2x.png */,
-				7F6F1261165D1A4600133A0F /* petal-save@2x.png */,
-				7F6F1262165D1A4600133A0F /* petal-twitter@2x.png */,
-				7F6F1263165D1A4600133A0F /* petal-unsave@2x.png */,
+				10B645961664D2F80029CC5C /* petal-email@2x.png */,
+				10B645971664D2F80029CC5C /* petal-facebook@2x.png */,
+				10B645981664D2F80029CC5C /* petal-save@2x.png */,
+				10B645991664D2F80029CC5C /* petal-twitter@2x.png */,
+				10B6459A1664D2F80029CC5C /* petal-unsave@2x.png */,
 				7F6F123B165D19C800133A0F /* FAFancyMenuExample-Info.plist */,
 				7F6F123C165D19C800133A0F /* InfoPlist.strings */,
 				7F6F123F165D19C800133A0F /* main.m */,
@@ -136,10 +136,10 @@
 		7F6F1256165D19DA00133A0F /* Fancy Menu */ = {
 			isa = PBXGroup;
 			children = (
-				7F6F1257165D19E700133A0F /* FAFancyMenuView.h */,
-				7F6F1258165D19E700133A0F /* FAFancyMenuView.m */,
-				7F6F1259165D19E700133A0F /* FAFancyButton.h */,
-				7F6F125A165D19E700133A0F /* FAFancyButton.m */,
+				10B645901664D2E90029CC5C /* FAFancyButton.h */,
+				10B645911664D2E90029CC5C /* FAFancyButton.m */,
+				10B645921664D2E90029CC5C /* FAFancyMenuView.h */,
+				10B645931664D2E90029CC5C /* FAFancyMenuView.m */,
 			);
 			name = "Fancy Menu";
 			sourceTree = "<group>";
@@ -201,11 +201,11 @@
 				7F6F1248165D19C800133A0F /* Default@2x.png in Resources */,
 				7F6F124A165D19C800133A0F /* Default-568h@2x.png in Resources */,
 				7F6F1250165D19C800133A0F /* FAViewController.xib in Resources */,
-				7F6F1264165D1A4600133A0F /* petal-email@2x.png in Resources */,
-				7F6F1265165D1A4600133A0F /* petal-facebook@2x.png in Resources */,
-				7F6F1266165D1A4600133A0F /* petal-save@2x.png in Resources */,
-				7F6F1267165D1A4600133A0F /* petal-twitter@2x.png in Resources */,
-				7F6F1268165D1A4600133A0F /* petal-unsave@2x.png in Resources */,
+				10B6459B1664D2F80029CC5C /* petal-email@2x.png in Resources */,
+				10B6459C1664D2F80029CC5C /* petal-facebook@2x.png in Resources */,
+				10B6459D1664D2F80029CC5C /* petal-save@2x.png in Resources */,
+				10B6459E1664D2F80029CC5C /* petal-twitter@2x.png in Resources */,
+				10B6459F1664D2F80029CC5C /* petal-unsave@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +219,8 @@
 				7F6F1240165D19C800133A0F /* main.m in Sources */,
 				7F6F1244165D19C800133A0F /* FAAppDelegate.m in Sources */,
 				7F6F124D165D19C800133A0F /* FAViewController.m in Sources */,
-				7F6F125B165D19E700133A0F /* FAFancyMenuView.m in Sources */,
-				7F6F125C165D19E700133A0F /* FAFancyButton.m in Sources */,
+				10B645941664D2E90029CC5C /* FAFancyButton.m in Sources */,
+				10B645951664D2E90029CC5C /* FAFancyMenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +337,7 @@
 				7F6F1255165D19C800133A0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
